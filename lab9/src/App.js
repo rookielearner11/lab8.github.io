@@ -23,7 +23,7 @@ import Registeration from './component/Registeration';
 import {RadioGroup, Radio} from 'react-radio-group'
 import Step3 from './component/Step3';
 import Step4 from './component/Step4';
-
+import Homecn from './component/Homecn';
 
 //import { AppContainer } from 'react-hot-loader';
 //import en from 'react-intl/locale-data/en';
@@ -71,6 +71,8 @@ class App extends Component {
           <Route path= '/registeration' component={Registeration}/>
           <Route path= '/step3' component={Step3}/>
           <Route path= '/step4' component={Step4}/>
+          <Route path= '/homecn' component={Homecn}/>
+          
           <Footer />
         </div>
       </BrowserRouter>

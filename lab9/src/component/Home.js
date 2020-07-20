@@ -1,7 +1,9 @@
 import React,{useState} from 'react'
 import { Icon } from 'semantic-ui-react';
+import {Link, NavLink} from 'react-router-dom'
 import {I18nProvider, LOCALES} from '../i18n';
 import translate from '../i18n/translate';
+import Homecn from './Homecn';
 
 const Home = () => {
     //const [locale, setLocal] = useState(LOCALES.ENGLISH);
@@ -40,6 +42,7 @@ const Home = () => {
             <p>Step4: Successfull reservation an appointment</p>
             <br></br>
             <br></br>
+            <div><li><Link to="/Homecn">Go to the chinese version page</Link></li></div>
         </div>
         //</I18nProvider>
     )
